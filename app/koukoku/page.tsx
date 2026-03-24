@@ -1,7 +1,11 @@
+export const metadata = {
+  title: "電子公告 | 株式会社LAQ",
+};
+
 export default function KoukokuPage() {
   return (
     <main className="min-h-screen bg-slate-50 text-slate-900">
-      <section className="mx-auto max-w-3xl px-6 py-16">
+      <section className="mx-auto max-w-4xl px-6 py-16">
         <div className="rounded-3xl bg-slate-900 px-8 py-12 text-white shadow-md">
           <p className="text-sm tracking-[0.2em] text-slate-300 uppercase">
             Electronic Public Notice
